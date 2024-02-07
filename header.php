@@ -45,16 +45,16 @@
                         <a href="https://mixen.cloud/">Mixen Cloud</a>
                     </li>
                     <li>
-                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-5" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#portafolio">Proyectos destacados</a>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-4" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#portafolio">Proyectos destacados</a>
                     </li>
                     <li>
-                        <a id="btn-nav-6" href="<?php echo get_category_link(45); ?>"><?php echo get_cat_name(45); ?></a>
+                        <a id="btn-nav-5" href="<?php echo get_category_link(45); ?>"><?php echo get_cat_name(45); ?></a>
                     </li>
                     <li>
-                        <a id="btn-nav-7" href="<?php echo get_category_link(2); ?>"><?php echo get_cat_name(2); ?></a>
+                        <a id="btn-nav-6" href="<?php echo get_category_link(2); ?>"><?php echo get_cat_name(2); ?></a>
                     </li>
                     <li>
-                        <a id="btn-nav-8" href="<?php echo get_permalink(28); ?>"><i class="fa-solid fa-headset"></i> ¿Necesitas soporte?</a>
+                        <a id="btn-nav-7" href="<?php echo get_permalink(28); ?>"><i class="fa-solid fa-headset"></i> ¿Necesitas soporte?</a>
                     </li>
                 </ul>
             </nav>

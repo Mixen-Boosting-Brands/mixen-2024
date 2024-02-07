@@ -51,7 +51,7 @@ $('body,html').click(function (e) {
 document.getElementById("cerrar-menu").addEventListener("click", cerrarMenu, false);
 document.getElementById("btn-logo").addEventListener("click", cerrarMenu, false);
 
-for( let i = 1; i < 8; i++ ) { // Cambiar por número de botones de navegación que se vayan a necesitar (sumar +1 al número de elementos que se necesitan)
+for( let i = 1; i < 7; i++ ) { // Cambiar por número de botones de navegación que se vayan a necesitar (sumar +1 al número de elementos que se necesitan)
     document.getElementById(`btn-nav-${i}`).addEventListener("click", cerrarMenu, false);
 }
 
