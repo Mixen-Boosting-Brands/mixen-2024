@@ -93,7 +93,7 @@ const swiperResultados = new Swiper('.swiper-resultados', {
       slidesPerView: 1,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     992: {
       slidesPerView: 2,
