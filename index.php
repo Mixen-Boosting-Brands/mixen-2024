@@ -364,11 +364,10 @@
                     </h1>
                 </div>
                 <div class="col-lg-4 my-auto">
-                    <!-- a href="https://mixen.cloud/" class="btn btn-outline-secondary rounded-pill mb-3">
-                        ¿Qué es?
-                    </a -->
                     <p>Plataforma segura, versátil y escalable para tus aplicaciones, web, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
-                    <i class="fa-solid fa-cloud"></i>
+                    <a href="https://mixen.cloud/" class="btn btn-outline-secondary rounded-pill mb-3">
+                        <i class="fa-solid fa-cloud"></i> ¿Qué es?
+                    </a>
                 </div>
             </div>
         </div>
