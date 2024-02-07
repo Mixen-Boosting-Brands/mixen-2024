@@ -561,6 +561,10 @@ header {
         .swiper-clientes > .swiper-wrapper {
             transition-timing-function : linear;
             justify-content: space-evenly;
+
+            .swiper-slide {
+                margin: auto 30px;
+            }
         }
     }
 }
