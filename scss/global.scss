@@ -366,9 +366,11 @@ header {
     padding: 60px 0;
 
     .btn-outline-secondary {
+        /*
         --bs-btn-padding-y: .25rem;
         --bs-btn-padding-x: 1rem;
         --bs-btn-font-size: .75rem;
+        */
         border-color: $white;
         color: $white;
 
