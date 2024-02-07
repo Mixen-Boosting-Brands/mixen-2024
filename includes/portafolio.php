@@ -17,7 +17,7 @@
                         <?php
                             $args = array(
                                 'post_type'      => 'proyectos', // Specify the custom post type
-                                'posts_per_page' => 10,
+                                'posts_per_page' => -1,
                                 'category__in'   => array(48),   // Specify the category ID
                             );
 
