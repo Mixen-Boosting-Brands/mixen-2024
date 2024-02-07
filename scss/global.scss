@@ -561,17 +561,6 @@ header {
         .swiper-clientes > .swiper-wrapper {
             transition-timing-function : linear;
             justify-content: space-evenly;
-
-            .swiper-slide {
-                position: relative;
-
-                &::after {
-                    content: "●";
-                    position: absolute;
-                    @include absolute-center-y;
-                    right: 0;
-                }
-            }
         }
     }
 }
