@@ -1,9 +1,9 @@
-    <section id="clientes" class="common-light pt-60 pb-30">
+    <section id="alianzas" class="common-light pt-60">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h1>
-                        Nuestros clientes
+                        Alianzas
                     </h1>
                 </div>
             </div>
