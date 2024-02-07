@@ -1,10 +1,4 @@
-<?php
-    /*
-        * Template Name: Home
-    */
-
-    get_header();
-?>
+<?php get_header(); ?>
 
     <section id="jumbotron">
         <div class="container">
@@ -177,7 +171,7 @@
                                     <h4 class="card-title">
                                         <i class="fa-solid fa-location-dot"></i> Posicionamiento
                                     </h4>
-                                    <p class="card-text">La coherencia en la comunicación y la conexión emocional son fundamentales para consolidar una imagen de marca perdurable.</p>
+                                    <p class="card-text">Se obtiene y destaca al adaptarse a las percepciones del mercado y las expectativas del cliente. La coherencia en la comunicación y la conexión emocional son fundamentales para consolidar una imagen de marca perdurable.</p>
                                 </div>
                             </div>
                         </div>
@@ -203,22 +197,22 @@
                                 e-Commerce
                             </div>
                             <div class="swiper-slide">
+                                SEO/SEM
+                            </div>
+                            <div class="swiper-slide">
                                 Social Media
-                            </div>
-                            <div class="swiper-slide">
-                                Development
-                            </div>
-                            <div class="swiper-slide">
-                                CX
                             </div>
                             <div class="swiper-slide">
                                 Contenido
                             </div>
                             <div class="swiper-slide">
-                                SEO/SEM
+                                CX
                             </div>
                             <div class="swiper-slide">
                                 Automatización
+                            </div>
+                            <div class="swiper-slide">
+                                Desarrollo
                             </div>
                             <div class="swiper-slide">
                                 Branding
@@ -230,22 +224,22 @@
                                 e-Commerce
                             </div>
                             <div class="swiper-slide">
+                                SEO/SEM
+                            </div>
+                            <div class="swiper-slide">
                                 Social Media
-                            </div>
-                            <div class="swiper-slide">
-                                Development
-                            </div>
-                            <div class="swiper-slide">
-                                CX
                             </div>
                             <div class="swiper-slide">
                                 Contenido
                             </div>
                             <div class="swiper-slide">
-                                SEO/SEM
+                                CX
                             </div>
                             <div class="swiper-slide">
                                 Automatización
+                            </div>
+                            <div class="swiper-slide">
+                                Desarrollo
                             </div>
                             <div class="swiper-slide">
                                 Branding
@@ -257,22 +251,22 @@
                                 e-Commerce
                             </div>
                             <div class="swiper-slide">
+                                SEO/SEM
+                            </div>
+                            <div class="swiper-slide">
                                 Social Media
-                            </div>
-                            <div class="swiper-slide">
-                                Development
-                            </div>
-                            <div class="swiper-slide">
-                                CX
                             </div>
                             <div class="swiper-slide">
                                 Contenido
                             </div>
                             <div class="swiper-slide">
-                                SEO/SEM
+                                CX
                             </div>
                             <div class="swiper-slide">
                                 Automatización
+                            </div>
+                            <div class="swiper-slide">
+                                Desarrollo
                             </div>
                         </div>
                     </div>
@@ -317,21 +311,15 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">
+                                        <h1 class="fs-4">SEO/SEM</h1>
+                                    </th>
+                                    <td>Mejora tu visibilidad en línea con SEO y SEM. Aumentamos la clasificación y generamos tráfico de calidad para maximizar tu alcance y conversiones.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
                                         <h1 class="fs-4">Social media</h1>
                                     </th>
                                     <td>Mejora tu presencia en redes sociales con nuestra gestión estratégica. Creamos contenido atractivo, aumentando la conexión y compromiso con tu audiencia.</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        <h1 class="fs-4">Development</h1>
-                                    </th>
-                                    <td>Transforma tus ideas en aplicaciones móviles atractivas y funcionales, trabajamos contiho para crear soluciones valiosas y fluidas para tus usuarios.</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                        <h1 class="fs-4">CX</h1>
-                                    </th>
-                                    <td>Pon a tus clientes en el centro de nuestro enfoque en la Experiencia del Cliente (CX). Optimizamos cada interacción desde el inicio hasta la posventa.</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
@@ -341,15 +329,21 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        <h1 class="fs-4">SEO/SEM</h1>
+                                        <h1 class="fs-4">CX</h1>
                                     </th>
-                                    <td>Mejora tu visibilidad en línea con SEO y SEM. Aumentamos la clasificación y generamos tráfico de calidad para maximizar tu alcance y conversiones.</td>
+                                    <td>Pon a tus clientes en el centro de nuestro enfoque en la Experiencia del Cliente (CX). Optimizamos cada interacción desde el inicio hasta la posventa.</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
                                         <h1 class="fs-4">Automatización</h1>
                                     </th>
                                     <td>Optimizamos operaciones con automatización para aumentar eficienca, reducir trabajo manual y enfocarte en el crecimiento.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <h1 class="fs-4">Desarrollo</h1>
+                                    </th>
+                                    <td>Transforma tus ideas en aplicaciones móviles atractivas y funcionales, trabajamos contiho para crear soluciones valiosas y fluidas para tus usuarios.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -370,11 +364,10 @@
                     </h1>
                 </div>
                 <div class="col-lg-4 my-auto">
-                    <!-- a href="https://mixen.cloud/" class="btn btn-outline-secondary rounded-pill mb-3">
-                        ¿Qué es?
-                    </a -->
                     <p>Plataforma segura, versátil y escalable para tus aplicaciones, web, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
-                    <i class="fa-solid fa-cloud"></i>
+                    <a href="https://mixen.cloud/" class="btn btn-outline-secondary rounded-pill mb-3">
+                        <i class="fa-solid fa-cloud"></i> ¿Qué es?
+                    </a>
                 </div>
             </div>
         </div>
@@ -426,7 +419,7 @@
         </div>
     </section>
 
-<?php get_template_part( 'includes/portafolio' ); ?>
+ <?php get_template_part( 'includes/portafolio' ); ?>
 
 <?php get_template_part( 'includes/clientes' ); ?>
 
