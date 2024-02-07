@@ -72,6 +72,9 @@
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Fibras-y-Semillas.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/FMI.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Gobierno-del-Estado-de-Chihuahua.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
