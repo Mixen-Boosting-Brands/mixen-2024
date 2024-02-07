@@ -28,7 +28,7 @@ const swiperSolucionesTop = new Swiper('.swiper-soluciones-top', {
     autoplay: {
         delay: 1,
         disableOnInteraction: false,
-        reverseDirection: true,
+        reverseDirection: false,
     },
     noSwiping: true,
     noSwipingClass: 'no-swiping',
