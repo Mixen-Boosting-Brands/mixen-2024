@@ -88,6 +88,7 @@ const swiperResultados = new Swiper('.swiper-resultados', {
   spaceBetween: 30,
   slidesPerView: 1,
   loop: false,
+  grabCursor: true,
   breakpoints: {
     576: {
       slidesPerView: 1,
