@@ -48,7 +48,7 @@ const swiperSolucionesTop = new Swiper('.swiper-soluciones-top', {
     },
 });
 
-/*
+
 const swiperSolucionesBottom = new Swiper('.swiper-soluciones-bottom', {
     // configure Swiper to use modules
     modules: [Autoplay],
@@ -79,7 +79,6 @@ const swiperSolucionesBottom = new Swiper('.swiper-soluciones-bottom', {
         },
     },
 });
-*/
 
 const swiperResultados = new Swiper('.swiper-resultados', {
   // configure Swiper to use modules
