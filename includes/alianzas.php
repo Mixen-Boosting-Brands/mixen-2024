@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-12">
                     <!-- Slider main container -->
-                    <div class="swiper swiper-clientes">
+                    <div class="swiper swiper-alianzas">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
