@@ -117,7 +117,7 @@
                                         Almacenamiento inteligente
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#mixen-cloud">
+                                        <a href="https://mixen.cloud/">
                                             Mixen Cloud
                                         </a>
                                     </li>
