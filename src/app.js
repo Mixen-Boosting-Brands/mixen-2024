@@ -73,3 +73,11 @@ document.addEventListener('keydown', (event) => {
 // Activar tooltips
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+// Quitar clases agregadas por SwiperJS
+document.addEventListener("DOMContentLoaded", function() {
+    const nextButton = document.querySelector('.swiper-button-next');
+    if (nextButton) {
+        nextButton.classList.remove('swiper-button-disabled', 'swiper-button-lock');
+    }
+});
