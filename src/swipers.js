@@ -185,12 +185,13 @@ const swiperClientes = new Swiper('.swiper-clientes', {
 
   speed: 4500,
   centeredSlides: true,
+  spaceBetween: 30,
   slidesPerView: 2,
   loop: true,
   autoplay: {
       delay: 1,
       disableOnInteraction: false,
-      reverseDirection: true,
+      reverseDirection: false,
   },
   noSwiping: true,
   noSwipingClass: 'no-swiping',
@@ -216,12 +217,13 @@ const swiperAlianzas = new Swiper('.swiper-alianzas', {
 
   speed: 4500,
   centeredSlides: true,
+  spaceBetween: 30,
   slidesPerView: 2,
   loop: true,
   autoplay: {
       delay: 1,
       disableOnInteraction: false,
-      reverseDirection: true,
+      reverseDirection: false,
   },
   noSwiping: true,
   noSwipingClass: 'no-swiping',
