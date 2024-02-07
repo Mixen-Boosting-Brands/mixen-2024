@@ -89,7 +89,7 @@ const swiperResultados = new Swiper('.swiper-resultados', {
   spaceBetween: 30,
   slidesPerView: 1,
   autoplay: {
-    delay: 1,
+    delay: 3600,
     disableOnInteraction: false,
     reverseDirection: false,
   },
