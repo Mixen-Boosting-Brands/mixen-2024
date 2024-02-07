@@ -183,27 +183,60 @@ const swiperClientes = new Swiper('.swiper-clientes', {
   // configure Swiper to use modules
   modules: [Autoplay],
 
-  // Optional parameters
-  spaceBetween: 30,
+  speed: 4500,
+  centeredSlides: true,
   slidesPerView: 2,
   loop: true,
-  grabCursor: true,
   autoplay: {
-      delay: 2000,
+      delay: 1,
       disableOnInteraction: false,
+      reverseDirection: true,
   },
+  noSwiping: true,
+  noSwipingClass: 'no-swiping',
   breakpoints: {
-    576: {
-      slidesPerView: 2,
-    },
-    768: {
-      slidesPerView: 4,
-    },
-    992: {
-      slidesPerView: 6,
-    },
-    1200: {
-        slidesPerView: 8,
-    },
-},
+      576: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      992: {
+        slidesPerView: 6,
+      },
+      1200: {
+          slidesPerView: 8,
+      },
+  },
+});
+
+const swiperAlianzas = new Swiper('.swiper-alianzas', {
+  // configure Swiper to use modules
+  modules: [Autoplay],
+
+  speed: 4500,
+  centeredSlides: true,
+  slidesPerView: 2,
+  loop: true,
+  autoplay: {
+      delay: 1,
+      disableOnInteraction: false,
+      reverseDirection: true,
+  },
+  noSwiping: true,
+  noSwipingClass: 'no-swiping',
+  breakpoints: {
+      576: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      992: {
+        slidesPerView: 6,
+      },
+      1200: {
+          slidesPerView: 8,
+      },
+  },
 });
