@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <section id="jumbotron">
+<section id="jumbotron">
         <div class="container">
             <div class="row py-30">
                 <div class="col text-center">
@@ -271,6 +271,97 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-12">
+                    <!-- Slider main container -->
+                    <div class="swiper-soluciones-bottom">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper no-swiping">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                Branding
+                            </div>
+                            <div class="swiper-slide">
+                                Web
+                            </div>
+                            <div class="swiper-slide">
+                                e-Commerce
+                            </div>
+                            <div class="swiper-slide">
+                                SEO/SEM
+                            </div>
+                            <div class="swiper-slide">
+                                Social Media
+                            </div>
+                            <div class="swiper-slide">
+                                Contenido
+                            </div>
+                            <div class="swiper-slide">
+                                CX
+                            </div>
+                            <div class="swiper-slide">
+                                Automatización
+                            </div>
+                            <div class="swiper-slide">
+                                Desarrollo
+                            </div>
+                            <div class="swiper-slide">
+                                Branding
+                            </div>
+                            <div class="swiper-slide">
+                                Web
+                            </div>
+                            <div class="swiper-slide">
+                                e-Commerce
+                            </div>
+                            <div class="swiper-slide">
+                                SEO/SEM
+                            </div>
+                            <div class="swiper-slide">
+                                Social Media
+                            </div>
+                            <div class="swiper-slide">
+                                Contenido
+                            </div>
+                            <div class="swiper-slide">
+                                CX
+                            </div>
+                            <div class="swiper-slide">
+                                Automatización
+                            </div>
+                            <div class="swiper-slide">
+                                Desarrollo
+                            </div>
+                            <div class="swiper-slide">
+                                Branding
+                            </div>
+                            <div class="swiper-slide">
+                                Web
+                            </div>
+                            <div class="swiper-slide">
+                                e-Commerce
+                            </div>
+                            <div class="swiper-slide">
+                                SEO/SEM
+                            </div>
+                            <div class="swiper-slide">
+                                Social Media
+                            </div>
+                            <div class="swiper-slide">
+                                Contenido
+                            </div>
+                            <div class="swiper-slide">
+                                CX
+                            </div>
+                            <div class="swiper-slide">
+                                Automatización
+                            </div>
+                            <div class="swiper-slide">
+                                Desarrollo
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -365,7 +456,7 @@
                 </div>
                 <div class="col-lg-4 my-auto">
                     <p>Plataforma segura, versátil y escalable para tus aplicaciones, web, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
-                    <a href="https://mixen.cloud/" class="btn btn-outline-secondary rounded-pill mb-3">
+                    <a href="https://mixen.cloud/" class="btn btn-outline-secondary btn-lg rounded-pill mb-3">
                         <i class="fa-solid fa-cloud"></i> ¿Qué es?
                     </a>
                 </div>
@@ -373,53 +464,9 @@
         </div>
     </section>
 
-    <section id="alianzas" class="common-light pt-60">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>
-                        Alianzas
-                    </h1>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-6 col-lg-2 offset-lg-1 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/adobe.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/canaco.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/heineken.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/hubspot.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/inc-mty.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-6 col-lg-2 offset-lg-1 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/nova-orion.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/oracle.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/startup-cuu.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/stella-orion.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/tec-mty.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
+<?php get_template_part( 'includes/alianzas' ); ?>
 
- <?php get_template_part( 'includes/portafolio' ); ?>
+<?php get_template_part( 'includes/portafolio' ); ?>
 
 <?php get_template_part( 'includes/clientes' ); ?>
 
