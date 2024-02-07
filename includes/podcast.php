@@ -12,10 +12,7 @@
             <div class="row">
                 <div class="col-6 col-lg-8 my-auto">
                     <h1 class="mb-0">
-                        <?php echo get_cat_name(45); ?>:
-                        <small class="d-block">
-                            Aprobado Sin Cambios
-                        </small>
+                        <?php echo get_cat_name(45); ?>
                     </h1>
                 </div>
                 <div class="col-6 col-lg-4 my-auto text-end">
