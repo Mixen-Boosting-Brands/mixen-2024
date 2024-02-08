@@ -12,7 +12,7 @@
                     <!-- Slider main container -->
                     <div class="swiper swiper-clientes">
                         <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper text-center">
                             <!-- Slides -->
                             <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Abitat.webp" alt="" class="img-fluid" loading="lazy">
