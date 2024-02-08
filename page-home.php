@@ -463,7 +463,7 @@
                 <div class="col-lg-4 my-auto">
                     <p>Plataforma segura, versátil y escalable para tus aplicaciones, web, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
                     <a href="https://mixen.cloud/" class="btn btn-outline-secondary btn-lg rounded-pill mb-3">
-                        <i class="fa-solid fa-cloud"></i> ¿Qué es?
+                        <i class="fa-solid fa-cloud"></i> Adquiere Mixen Cloud
                     </a>
                 </div>
             </div>
