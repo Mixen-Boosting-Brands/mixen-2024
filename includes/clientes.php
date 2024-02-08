@@ -90,9 +90,6 @@
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Grupo-SIEE.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/IMI.webp" alt="" class="img-fluid" loading="lazy">
-                            </div>
-                            <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/ISAD.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
