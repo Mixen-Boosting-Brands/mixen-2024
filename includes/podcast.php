@@ -12,8 +12,9 @@
             <div class="row">
                 <div class="col-6 col-lg-8 my-auto">
                     <h1 class="mb-0">
-                        <?php echo get_cat_name(45); ?>
+                        Podcast:
                     </h1>
+                    <h2>Aprobado Sin Cambios</h2>
                 </div>
                 <div class="col-6 col-lg-4 my-auto text-end">
                     <a href="<?php echo get_category_link(45); ?>" class="btn btn-outline-primary rounded-pill">
