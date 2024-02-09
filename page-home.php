@@ -135,7 +135,7 @@
                         Nuestras<br>
                         soluciones
                     </h1>
-                    <p>En Mixen: Boosting Brands te ofrecemos tres soluciones a estas problemáticas tan comunes:</p>
+                    <p>En Mixen: Boosting Brands te ofrecemos cuatro soluciones a estas problemáticas tan comunes:</p>
                 </div>
             </div>
             <div class="row">
@@ -461,7 +461,7 @@
                     </h1>
                 </div>
                 <div class="col-lg-4 my-auto">
-                    <p>Plataforma segura, versátil y escalable para tus aplicaciones, web, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
+                    <p>Plataforma segura, versátil y escalable para tu web, tienda en línea, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
                     <a href="https://mixen.cloud/" class="btn btn-outline-secondary btn-lg rounded-pill mb-3">
                         <i class="fa-solid fa-cloud"></i> Adquiere Mixen Cloud
                     </a>
