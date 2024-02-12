@@ -444,7 +444,7 @@
         </div>
     </section>
 
-    <section id="mixen-cloud" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mixen-cloud/bg.png">
+    <section id="mixen-cloud">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mb-1 mb-lg-3 my-lg-auto">
