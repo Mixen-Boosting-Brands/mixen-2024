@@ -363,6 +363,7 @@ header {
 
 #mixen-cloud {
     color: $white;
+    overflow: hidden;
     padding: 60px 0;
 
     .btn-outline-secondary {
@@ -542,7 +543,9 @@ header {
             .nav-link {
                 padding: 5px 15px 5px 0;
 
+                /*
                 &:first-child {}
+                */
             }
 
             .nav-link.active {
