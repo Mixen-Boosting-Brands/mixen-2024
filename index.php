@@ -366,6 +366,26 @@
         </div>
     </section>
 
+    <section id="mixen-cloud" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mixen-cloud/bg.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-1 mb-lg-3 my-lg-auto">
+                    <h1>
+                        <span>Almacenamiento inteligente</span>
+                        <br>
+                        Mixen Cloud
+                    </h1>
+                </div>
+                <div class="col-lg-4 my-auto">
+                    <p>Plataforma segura, versátil y escalable para tu web, tienda en línea, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
+                    <a href="https://mixen.cloud/" class="btn btn-outline-secondary btn-lg rounded-pill mb-3">
+                        <i class="fa-solid fa-cloud"></i> Adquiere Mixen Cloud
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="como-lo-logramos" class="py-60">
         <div class="container">
             <div class="row text-center">
@@ -439,26 +459,6 @@
                             </tbody>
                         </table>
                       </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="mixen-cloud">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mb-1 mb-lg-3 my-lg-auto">
-                    <h1>
-                        <span>Almacenamiento inteligente</span>
-                        <br>
-                        Mixen Cloud
-                    </h1>
-                </div>
-                <div class="col-lg-4 my-auto">
-                    <p>Plataforma segura, versátil y escalable para tu web, tienda en línea, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
-                    <a href="https://mixen.cloud/" class="btn btn-outline-secondary btn-lg rounded-pill mb-3">
-                        <i class="fa-solid fa-cloud"></i> Adquiere Mixen Cloud
-                    </a>
                 </div>
             </div>
         </div>
