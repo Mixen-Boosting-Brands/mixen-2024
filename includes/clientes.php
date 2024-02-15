@@ -21,6 +21,9 @@
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Allstar.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Alsuper.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide my-auto">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/American-Industries.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide my-auto">
