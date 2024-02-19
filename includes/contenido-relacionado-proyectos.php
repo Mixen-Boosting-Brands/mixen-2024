@@ -21,6 +21,7 @@
                     'post__not_in' => array(get_the_ID()), // Exclude the current post
                     'posts_per_page' => 9, // Adjust the number of related posts to display
                     'ignore_sticky_posts' => 1,
+                    'orderby' => 'rand',
                 );
 
                 $related_query = new WP_Query($args);
