@@ -366,6 +366,8 @@ header {
 }
 
 #mixen-cloud {
+    @include background('../images/mixen-cloud/bg.png', center, cover);
+    background-attachment: fixed;
     color: $white;
     overflow: hidden;
     padding: 60px 0;
