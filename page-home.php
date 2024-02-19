@@ -410,7 +410,7 @@
                                     <th scope="row" class="w-25">
                                         <h1 class="fs-4">SEO/SEM</h1>
                                     </th>
-                                    <td>Mejora tu visibilidad en línea con SEO y SEM. Aumentamos tu posicionamiento y visibilidad y generamos tráfico de calidad para maximizar tu alcance y conversiones.</td>
+                                    <td>Mejora tu visibilidad en línea con SEO y SEM. Aumentamos tu posicionamiento, visibilidad y generamos tráfico de calidad para maximizar tu alcance y conversiones.</td>
                                 </tr>
                                 <tr>
                                     <th scope="row" class="w-25">
