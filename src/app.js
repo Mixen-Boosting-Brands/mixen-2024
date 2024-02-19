@@ -7,7 +7,7 @@ import '../src/form-ajax';
 import '../src/aos';
 import '../src/swipers';
 import '../src/remove-related-videos';
-//import 'jquery-parallax.js'
+import 'jquery-parallax.js'
 // import '../src/gsap';
 
 // Header
