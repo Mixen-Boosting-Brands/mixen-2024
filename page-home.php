@@ -389,55 +389,55 @@
                         <table class="table table-borderless">
                             <tbody>
                                 <tr>
-                                    <th scope="row">
+                                    <th scope="row" class="w-25">
                                         <h1 class="fs-4">Branding</h1>
                                     </th>
                                     <td>Crea una identidad única y memorable mediante diseño y mensajes impactantes.</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">
+                                    <th scope="row" class="w-25">
                                         <h1 class="fs-4">Web</h1>
                                     </th>
                                     <td>Transforma tu visión en una experiencia en línea excepcional. Creamos soluciones.</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">
+                                    <th scope="row" class="w-25">
                                         <h1 class="fs-4">e-Commerce</h1>
                                     </th>
                                     <td>Impulsa tus ventas en línea con nuestras soluciones de comercio electrónico, ofrecemos una experiencia de compra segura y eficiente.</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">
+                                    <th scope="row" class="w-25">
                                         <h1 class="fs-4">SEO/SEM</h1>
                                     </th>
                                     <td>Mejora tu visibilidad en línea con SEO y SEM. Aumentamos tu posicionamiento y visibilidad y generamos tráfico de calidad para maximizar tu alcance y conversiones.</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">
+                                    <th scope="row" class="w-25">
                                         <h1 class="fs-4">Social media</h1>
                                     </th>
                                     <td>Mejora tu presencia en redes sociales con nuestra gestión estratégica. Creamos contenido atractivo, aumentando la conexión y convirtiendo todos los esfuerzos en ventas.</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">
+                                    <th scope="row" class="w-25">
                                         <h1 class="fs-4">Contenido</h1>
                                     </th>
                                     <td>Cuenta tu historia de manera convincente con contenido multimedia relevante y valioso, estableciendo autoridad y manteniendo el compromiso de tu audiencia.</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">
+                                    <th scope="row" class="w-25">
                                         <h1 class="fs-4">CX</h1>
                                     </th>
                                     <td>Pon a tus clientes en el centro de nuestro enfoque en la Experiencia del Cliente. Automatizando cada interacción desde el inicio hasta la posventa.</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">
+                                    <th scope="row" class="w-25">
                                         <h1 class="fs-4">IA</h1>
                                     </th>
                                     <td>Utiliza inteligencia artificial para personalizar campañas, predecir tendencias y generar contenidos únicos. Potenciamos las ventas de nuestros clientes entendiendo e integrando megatendencias.</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">
+                                    <th scope="row" class="w-25">
                                         <h1 class="fs-4">Desarrollo</h1>
                                     </th>
                                     <td>Transforma tus ideas en aplicaciones móviles atractivas y funcionales, trabajamos contigo para crear soluciones valiosas y fluidas para tus usuarios.</td>
