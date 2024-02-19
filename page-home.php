@@ -215,7 +215,7 @@
                                 CX
                             </div>
                             <div class="swiper-slide">
-                                Automatización
+                                IA
                             </div>
                             <div class="swiper-slide">
                                 Desarrollo
@@ -242,7 +242,7 @@
                                 CX
                             </div>
                             <div class="swiper-slide">
-                                Automatización
+                                IA
                             </div>
                             <div class="swiper-slide">
                                 Desarrollo
@@ -269,7 +269,7 @@
                                 CX
                             </div>
                             <div class="swiper-slide">
-                                Automatización
+                                IA
                             </div>
                             <div class="swiper-slide">
                                 Desarrollo
@@ -306,7 +306,7 @@
                                 CX
                             </div>
                             <div class="swiper-slide">
-                                Automatización
+                                IA
                             </div>
                             <div class="swiper-slide">
                                 Desarrollo
@@ -333,7 +333,7 @@
                                 CX
                             </div>
                             <div class="swiper-slide">
-                                Automatización
+                                IA
                             </div>
                             <div class="swiper-slide">
                                 Desarrollo
@@ -360,7 +360,7 @@
                                 CX
                             </div>
                             <div class="swiper-slide">
-                                Automatización
+                                IA
                             </div>
                             <div class="swiper-slide">
                                 Desarrollo
