@@ -11,42 +11,48 @@ import '../src/remove-related-videos';
 // import '../src/gsap';
 
 // Header
-$(function () {
-    // Cachea el objeto jQuery que contiene el elemento #navbar
-    var header = $("#navbar");
+document.addEventListener('DOMContentLoaded', function () {
+    // Cache the DOM element containing the navbar
+    var header = document.getElementById('navbar');
 
     function updateScroll() {
-        var scroll = $(window).scrollTop();
+        var scroll = window.pageYOffset || document.documentElement.scrollTop;
 
         if (scroll >= 1) {
-            header.addClass('navbar-scroll');
+            header.classList.add('navbar-scroll');
         } else {
-            header.removeClass("navbar-scroll");
+            header.classList.remove('navbar-scroll');
         }
     }
 
-    $(function () {
-        $(window).scroll(updateScroll);
-        updateScroll();
-    });
+    window.addEventListener('scroll', updateScroll);
+    updateScroll();
 });
 
-// Menú de navegación
-$('#mburger').click(function (e) {
+// Navigation menu
+document.getElementById('mburger').addEventListener('click', function (e) {
     e.stopPropagation();
-    $('.menu').toggleClass('menu-abierto');
-    $('#navbar').toggleClass('opacity-0');
-    $('#backdrop').toggleClass('backdrop-opacity-1');
+    var menu = document.querySelector('.menu');
+    var navbar = document.getElementById('navbar');
+    var backdrop = document.getElementById('backdrop');
+
+    menu.classList.toggle('menu-abierto');
+    navbar.classList.toggle('opacity-0');
+    backdrop.classList.toggle('backdrop-opacity-1');
 });
 
-$('.menu').click(function (e) {
+document.querySelector('.menu').addEventListener('click', function (e) {
     e.stopPropagation();
 });
 
-$('body,html').click(function (e) {
-    $('.menu').removeClass('menu-abierto');
-    $('#navbar').removeClass('opacity-0');
-    $('#backdrop').removeClass('backdrop-opacity-1');
+document.body.addEventListener('click', function (e) {
+    var menu = document.querySelector('.menu');
+    var navbar = document.getElementById('navbar');
+    var backdrop = document.getElementById('backdrop');
+
+    menu.classList.remove('menu-abierto');
+    navbar.classList.remove('opacity-0');
+    backdrop.classList.remove('backdrop-opacity-1');
 });
 
 document.getElementById("cerrar-menu").addEventListener("click", cerrarMenu, false);
