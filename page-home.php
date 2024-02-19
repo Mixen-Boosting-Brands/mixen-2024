@@ -177,7 +177,7 @@
                                     <h4 class="card-title">
                                         <i class="fa-solid fa-location-dot"></i> Posicionamiento
                                     </h4>
-                                    <p class="card-text">Se obtiene y destaca al adaptarse a las percepciones del mercado y las expectativas del cliente. La coherencia en la comunicación y la conexión emocional son fundamentales para consolidar una imagen de marca perdurable.</p>
+                                    <p class="card-text">La coherencia en la comunicación y la conexión emocional son fundamentales para consolidar una imagen de marca perdurable.</p>
                                 </div>
                             </div>
                         </div>
@@ -461,7 +461,7 @@
                     </h1>
                 </div>
                 <div class="col-lg-4 my-auto">
-                    <p>Plataforma segura, versátil y escalable para tu web, tienda en línea, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
+                    <p>Plataforma segura, versátil y escalable para tus correos electrónicos, web, tienda en línea y aplicaciones. Tenemos la infraestructura tecnológica que necesitas potenciada por inteligencia artificial.</p>
                     <a href="https://mixen.cloud/" class="btn btn-outline-secondary btn-lg rounded-pill mb-3">
                         <i class="fa-solid fa-cloud"></i> Adquiere Mixen Cloud
                     </a>
