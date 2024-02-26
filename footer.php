@@ -49,17 +49,12 @@
                                     </li>
                                     <li>
                                         <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                            SEO/SEM
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             Social Media
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
-                                            Development
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
-                                            CX
                                         </a>
                                     </li>
                                     <li>
@@ -69,12 +64,17 @@
                                     </li>
                                     <li>
                                         <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
-                                            SEO/SEM
+                                            CX
                                         </a>
                                     </li>
                                     <li>
                                         <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
-                                            Automatización
+                                            IA
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                            Desarrollo
                                         </a>
                                     </li>
                                 </ul>
