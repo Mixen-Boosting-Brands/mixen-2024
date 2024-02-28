@@ -21,37 +21,11 @@
                     <div class="swiper-jumbotron">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
-                            <!-- Inicio Slide -->
-                            <div class="swiper-slide">
-                                <div class="row g-1">
-                                <?php if( have_rows('proyecto_1') ): while( have_rows('proyecto_1') ): the_row(); ?>
-                                    <div class="col-lg-8">
-                                        <div class="thumb thumb-1" style="background: url('<?php the_sub_field('imagen'); ?>') no-repeat;">
-                                            <a href="<?php the_sub_field('link_del_proyecto'); ?>"></a>
-                                        </div>
-                                    </div>
-                                <?php endwhile; endif; ?>
-                                    <div class="col-lg-4">
-                                        <div class="row gy-1">
-                                        <?php if( have_rows('proyecto_2') ): while( have_rows('proyecto_2') ): the_row(); ?>
-                                            <div class="col-12">
-                                                <div class="thumb thumb-2" style="background: url('<?php the_sub_field('imagen'); ?>') no-repeat;">
-                                                    <a href="<?php the_sub_field('link_del_proyecto'); ?>"></a>
-                                                </div>
-                                            </div>
-                                        <?php endwhile; endif; ?>
-                                        <?php if( have_rows('proyecto_3') ): while( have_rows('proyecto_3') ): the_row(); ?>
-                                            <div class="col-12">
-                                                <div class="thumb thumb-3" style="background: url('<?php the_sub_field('imagen'); ?>') no-repeat;">
-                                                    <a href="<?php the_sub_field('link_del_proyecto'); ?>"></a>
-                                                </div>
-                                            </div>
-                                        <?php endwhile; endif; ?>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
+                        <?php if( get_field('activar_randomizado') ): ?>
+                            <?php get_template_part( 'includes/banner-randomizado' ); ?>
+                        <?php else: ?>
+                            <?php get_template_part( 'includes/banner-manual' ); ?>
+                        <?php endif; ?>
                         </div>
 
                         <!-- If we need navigation buttons -->
@@ -379,7 +353,7 @@
                     <h1 class="mb-1 mb-lg-3">
                         <span class="fs-4">¿Cómo</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> lo logramos?
                     </h1>
-                    <p>Para poder ofrecerte presencia, relevancia e inteligencia, hemos diseñado los siguientes servicios:</p>
+                    <p>Para poder ofrecerte presencia, relevancia, inteligencia y posicionamiento hemos diseñado los siguientes servicios:</p>
                     <div class="separador"></div>
                 </div>
             </div>
