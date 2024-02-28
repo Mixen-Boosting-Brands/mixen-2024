@@ -10,7 +10,9 @@
         );
 
         $proyectosHeaderBigQuery = new WP_Query($args);
+        $excluded_ids = array(); // Array to store IDs of posts retrieved in the first loop
         if ($proyectosHeaderBigQuery->have_posts()): while ($proyectosHeaderBigQuery->have_posts()) : $proyectosHeaderBigQuery->the_post();
+            $excluded_ids[] = get_the_ID(); // Store the ID of the post
     ?>
         <div class="col-lg-8">
             <div class="thumb thumb-1" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
@@ -29,6 +31,7 @@
                     'posts_per_page' => 2,
                     'category__in'   => array(48),   // Specify the category ID
                     'orderby' => 'rand',
+                    'post__not_in'   => $excluded_ids, // Exclude IDs retrieved in the first loop
                 );
 
                 $proyectosHeaderSmallQuery = new WP_Query($args);
