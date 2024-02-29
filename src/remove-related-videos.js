@@ -5,13 +5,16 @@ document.addEventListener('DOMContentLoaded', function() {
     var iframes = document.querySelectorAll('iframe[src*="youtube.com"], iframe[src*="youtu.be"]');
     
     iframes.forEach(function(iframe) {
-        // Create a new URL object
-        var src = new URL(iframe.getAttribute('src'));
+        // Get the src attribute of the iframe
+        var src = iframe.getAttribute('src');
         
-        // Set the rel=0 parameter
-        src.searchParams.set('rel', '0');
-        
-        // Set the updated URL back to the iframe
-        iframe.setAttribute('src', src.toString());
+        // Check if src already contains query parameters
+        if (src.indexOf('?') !== -1) {
+            // If yes, append &rel=0
+            iframe.setAttribute('src', src + '&rel=0');
+        } else {
+            // If no, append ?rel=0
+            iframe.setAttribute('src', src + '?rel=0');
+        }
     });
 });
