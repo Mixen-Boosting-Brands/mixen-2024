@@ -28,7 +28,7 @@
             <div class="row mb-5">
                 <div class="col">
 					<div class="video-responsive">
-						<?php the_field('video'); ?>
+                        <?php echo get_field('video'); ?>
 					</div>
                 </div>
             </div>
