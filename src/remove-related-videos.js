@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM Loaded'); // Check if this message appears reliably
+    
     // Find all iframe elements containing YouTube videos
-    var iframes = document.querySelectorAll('iframe[src*="youtube.com"]');
+    var iframes = document.querySelectorAll('iframe[src*="youtube.com"], iframe[src*="youtu.be"]');
+    
     iframes.forEach(function(iframe) {
-        // Append ?rel=0 to the src attribute
-        var src = iframe.getAttribute('src');
-        if (src.indexOf('?') !== -1) {
-            // If the src already contains query parameters, append &rel=0
-            iframe.setAttribute('src', src + '&rel=0');
-        } else {
-            // If the src does not contain query parameters, append ?rel=0
-            iframe.setAttribute('src', src + '?rel=0');
-        }
+        // Create a new URL object
+        var src = new URL(iframe.getAttribute('src'));
+        
+        // Set the rel=0 parameter
+        src.searchParams.set('rel', '0');
+        
+        // Set the updated URL back to the iframe
+        iframe.setAttribute('src', src.toString());
     });
 });
