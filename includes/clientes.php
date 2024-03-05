@@ -1,5 +1,4 @@
     <section id="clientes" class="common-light pt-60 pb-30">
-        <div id="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -12,6 +11,7 @@
                 <div class="col-12">
                     <!-- Slider main container -->
                     <div class="swiper swiper-clientes">
+                        <div id="overlay"></div>
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper text-center">
                             <!-- Slides -->
