@@ -1,4 +1,5 @@
     <section id="clientes" class="common-light pt-60 pb-30">
+        <div id="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col">

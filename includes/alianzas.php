@@ -1,4 +1,5 @@
     <section id="alianzas" class="common-light pt-60">
+        <div id="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col">
