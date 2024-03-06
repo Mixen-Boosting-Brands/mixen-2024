@@ -437,7 +437,7 @@
                 <div class="col-lg-4 my-auto">
                     <p>Plataforma segura, versátil y escalable para tus correos electrónicos, web, tienda en línea y aplicaciones. Tenemos la infraestructura tecnológica que necesitas potenciada por inteligencia artificial.</p>
                     <a href="https://mixen.cloud/" class="btn btn-outline-secondary btn-lg rounded-pill mb-3">
-                        <i class="fa-solid fa-cloud"></i> Adquiere Mixen Cloud
+                        <i class="fa-solid fa-cart-shopping"></i> Adquiere Mixen Cloud
                     </a>
                 </div>
             </div>
