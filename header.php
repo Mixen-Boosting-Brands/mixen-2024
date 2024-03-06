@@ -61,13 +61,13 @@
             <div id="social">
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/MixenMx/" target="_blank">
-                            <i class="fa-brands fa-facebook-f"></i>
+                        <a href="https://www.instagram.com/mixenmx/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com/mixenmx/" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.tiktok.com/mixenmx/" target="_blank">
+                            <i class="fa-brands fa-tiktok"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">

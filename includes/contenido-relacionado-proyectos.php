@@ -3,8 +3,8 @@
             <div class="row">
                 <div class="col">
                     <h1>
-                        Contenido<br>
-                        relacionado
+                        Proyectos<br>
+                        destacados
                     </h1>
                 </div>
             </div>
