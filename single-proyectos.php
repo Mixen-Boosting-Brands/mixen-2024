@@ -24,6 +24,7 @@
                     </p>
                 </div>
             </div>
+    <?php if( get_field('video_imagen') == 'Video' ): ?>
 		<?php if( get_field('video') ): ?>
             <div class="row mb-5">
                 <div class="col">
@@ -33,6 +34,7 @@
                 </div>
             </div>
 		<?php endif; ?>
+    <?php else: ?>
         <?php if( get_field('imagen') ): ?>
             <div class="row mb-5">
                 <div class="col">
@@ -40,6 +42,7 @@
                 </div>
             </div>
 		<?php endif; ?>
+    <?php endif; ?>
             <div class="row mb-4">
 			<?php if( get_field('texto_nuestro_cliente') ): ?>
                 <div class="col-lg-6">
