@@ -6,7 +6,7 @@
     get_header();
 ?>
 
-<section id="jumbotron">
+    <section id="jumbotron">
         <div class="container">
             <div class="row py-30">
                 <div class="col text-center">
