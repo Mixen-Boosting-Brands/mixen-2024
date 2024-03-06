@@ -109,7 +109,7 @@
                         Nuestras<br>
                         soluciones
                     </h1>
-                    <p>En Mixen: Boosting Brands te ofrecemos cuatro soluciones a estas problemáticas tan comunes:</p>
+                    <p>En Mixen: Boosting Brands te ofrecemos 4 soluciones a estas problemáticas tan comunes:</p>
                 </div>
             </div>
             <div class="row">
