@@ -53,9 +53,6 @@
                     <li>
                         <a id="btn-nav-6" href="<?php echo get_category_link(2); ?>"><?php echo get_cat_name(2); ?></a>
                     </li>
-                    <li>
-                        <a id="btn-nav-7" href="<?php echo get_permalink(28); ?>"><i class="fa-solid fa-headset"></i> ¿Necesitas soporte?</a>
-                    </li>
                 </ul>
             </nav>
             <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill" id="btn-contacto" target="_blank">
@@ -87,6 +84,11 @@
                     </li>
                     <li>
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-wa-business.svg" alt="" class="ico-wa-business img-fluid" loading="lazy"> <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." target="_blank">+52 1 (614) 515 4943</a>
+                    </li>
+                    <li>
+                        <a id="btn-nav-7" class="bg-primary badge rounded-pill" href="<?php echo get_permalink(28); ?>">
+                            <i class="fa-solid fa-headset"></i> ¿Necesitas soporte?
+                        </a>
                     </li>
                 </ul>
             </div>
