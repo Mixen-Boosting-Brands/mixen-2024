@@ -159,11 +159,13 @@
                                             <?php echo get_the_title(3); ?>
                                         </a>
                                     </li>
+                                <?php if( !is_page(28) ): ?>
                                     <li class="mb-1 mb-lg-3">
                                         <a class="bg-primary badge rounded-pill" href="<?php echo get_permalink(28); ?>">
                                             <i class="fa-solid fa-headset"></i> ¿Necesitas soporte?
                                         </a>
                                     </li>
+                                <?php endif; ?>
                                 </ul>
                             </nav>
                         </div>

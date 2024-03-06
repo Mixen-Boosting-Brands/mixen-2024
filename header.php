@@ -85,11 +85,13 @@
                     <li>
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-wa-business.svg" alt="" class="ico-wa-business img-fluid" loading="lazy"> <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." target="_blank">+52 1 (614) 515 4943</a>
                     </li>
+                <?php if( !is_page(28) ): ?>
                     <li>
                         <a id="btn-nav-7" class="bg-primary badge rounded-pill" href="<?php echo get_permalink(28); ?>">
                             <i class="fa-solid fa-headset"></i> ¿Necesitas soporte?
                         </a>
                     </li>
+                <?php endif; ?>
                 </ul>
             </div>
         </div>
