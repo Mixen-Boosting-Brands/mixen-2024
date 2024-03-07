@@ -7,7 +7,7 @@
     $podcastQuery = new WP_Query($args);
     if ($podcastQuery->have_posts()): while ($podcastQuery->have_posts()) : $podcastQuery->the_post();
 ?>
-    <section id="podcast" class="common-light py-60">
+    <section id="podcast" class="common-light py-60 d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-lg-8 my-auto">

@@ -1,4 +1,4 @@
-    <section id="alianzas" class="common-light pt-60">
+    <section id="alianzas" class="common-light pt-60 d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col">
