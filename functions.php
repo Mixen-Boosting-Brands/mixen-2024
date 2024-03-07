@@ -35,8 +35,9 @@ if ( function_exists( 'add_theme_support' ) ) {
     add_image_size( 'home-proyecto', 636, 350, true ); // Custom Thumbnail Size call using the_post_thumbnail('home-blog');
     add_image_size( 'home-blog', 636, 296, true ); // Custom Thumbnail Size call using the_post_thumbnail('home-blog');
     add_image_size( 'home-podcast', 636, 236, true ); // Custom Thumbnail Size call using the_post_thumbnail('home-podcast');
+    add_image_size( 'home-problematica-small', 235, 235, true); // Custom Thumbnail Size call using the_post_thumbnail('home-problematica-small');
+    add_image_size( 'home-problematica-big', 742, 463, true); // Custom Thumbnail Size call using the_post_thumbnail('home-problematica-big');
     add_image_size( 'relacionados', 412, 227, true ); // Custom Thumbnail Size call using the_post_thumbnail('relacionados');
-    add_image_size( 'custom-size', 700, 200, true ); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
 
     // Add Support for Custom Backgrounds - Uncomment below if you're going to use.
     /*add_theme_support('custom-background', array(
@@ -554,3 +555,12 @@ function html5_shortcode_demo_2( $atts, $content = null ) {
 
     return null;
 }
+
+// Define a function to add the 'loading="lazy"' attribute
+function add_lazy_loading_attribute($attr, $attachment, $size) {
+    if (isset($attr['src'])) {
+        $attr['loading'] = 'lazy';
+    }
+    return $attr;
+}
+add_filter('wp_get_attachment_image_attributes', 'add_lazy_loading_attribute', 10, 3);
