@@ -95,33 +95,33 @@
         <div class="container">
             <div class="row">
             <?php if( get_sub_field('imagen_1') ): ?>
-                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                <div class="col-12 col-lg-4 mb-4">
                     <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
             <?php endif; ?>
             <?php if( get_sub_field('imagen_2') ): ?>
-                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                <div class="col-12 col-lg-4 mb-4">
+                    <img src="<?php the_sub_field('imagen_2'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
             <?php endif; ?>
             <?php if( get_sub_field('imagen_3') ): ?>
-                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                <div class="col-12 col-lg-4 mb-4">
+                    <img src="<?php the_sub_field('imagen_3'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
             <?php endif; ?>
             <?php if( get_sub_field('imagen_4') ): ?>
-                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                <div class="col-12 col-lg-4 mb-4">
+                    <img src="<?php the_sub_field('imagen_4'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
             <?php endif; ?>
             <?php if( get_sub_field('imagen_5') ): ?>
-                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                <div class="col-12 col-lg-4 mb-4">
+                    <img src="<?php the_sub_field('imagen_5'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
             <?php endif; ?>
             <?php if( get_sub_field('imagen_6') ): ?>
-                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                <div class="col-12 col-lg-4 mb-4">
+                    <img src="<?php the_sub_field('imagen_6'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
             <?php endif; ?>
             </div>
