@@ -91,87 +91,39 @@
     </section>
 
 <?php if( have_rows('carrusel_de_imagenes') ): while( have_rows('carrusel_de_imagenes') ): the_row(); ?>
-    <section id="carrusel" class="common-light pb-30">
+    <section class="common-light pb-30">
         <div class="container">
             <div class="row">
-                <div class="col overflow-hidden">
-                    <!-- Slider main container -->
-                    <div class="swiper-carrusel">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                        <?php if( get_sub_field('imagen_1') ): ?>
-                            <!-- Inicio Slide -->
-                            <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                        <?php endif; ?>
-                        <?php if( get_sub_field('imagen_2') ): ?>
-                            <!-- Inicio Slide -->
-                            <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img src="<?php the_sub_field('imagen_2'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                        <?php endif; ?>
-                        <?php if( get_sub_field('imagen_3') ): ?>
-                            <!-- Inicio Slide -->
-                            <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img src="<?php the_sub_field('imagen_3'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                        <?php endif; ?>
-                        <?php if( get_sub_field('imagen_4') ): ?>
-                            <!-- Inicio Slide -->
-                            <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img src="<?php the_sub_field('imagen_4'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                        <?php endif; ?>
-                        <?php if( get_sub_field('imagen_5') ): ?>
-                            <!-- Inicio Slide -->
-                            <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img src="<?php the_sub_field('imagen_5'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                        <?php endif; ?>
-                        <?php if( get_sub_field('imagen_6') ): ?>
-                            <!-- Inicio Slide -->
-                            <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img src="<?php the_sub_field('imagen_6'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                        <?php endif; ?>
-                        </div>
-
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
+            <?php if( get_sub_field('imagen_1') ): ?>
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
+            <?php endif; ?>
+            <?php if( get_sub_field('imagen_2') ): ?>
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                </div>
+            <?php endif; ?>
+            <?php if( get_sub_field('imagen_3') ): ?>
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                </div>
+            <?php endif; ?>
+            <?php if( get_sub_field('imagen_4') ): ?>
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                </div>
+            <?php endif; ?>
+            <?php if( get_sub_field('imagen_5') ): ?>
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                </div>
+            <?php endif; ?>
+            <?php if( get_sub_field('imagen_6') ): ?>
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                    <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                </div>
+            <?php endif; ?>
             </div>
         </div>
     </section>
