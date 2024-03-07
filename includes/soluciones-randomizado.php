@@ -15,7 +15,7 @@
                 <div class="card text-bg-primary mb-3">
                     <div class="card-body">
                         <h4 class="card-title">
-                            <?php $fa_icon = get_field('fa_icon'); if ($fa_icon) { echo wp_strip_all_tags($fa_icon); } the_title(); ?>
+                            <?php if( get_field('fa_icon') ): ?><?php echo wp_strip_all_tags(get_field('fa_icon')); ?><?php endif; ?> <?php the_title(); ?>
                         </h4>
                         <p class="card-text"><?php the_content(); ?></p>
                     </div>
@@ -28,7 +28,3 @@
         </div>
     </div>
 </div>
-
-<h4 class="card-title">
-    <?php $fa_icon = get_field('fa_icon'); if ($fa_icon) { echo wp_strip_all_tags($fa_icon); } the_title(); ?>
-</h4>
