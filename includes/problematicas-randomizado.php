@@ -26,7 +26,7 @@
         </div>
     </div>
 <?php 
-    $i++ endwhile; endif;
+    $i++; endwhile; endif;
     wp_reset_postdata();
 ?>
 </div>
