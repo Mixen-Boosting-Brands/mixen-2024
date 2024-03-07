@@ -48,7 +48,7 @@
                     </h1>
                 </div>
             </div>
-        <?php if( get_field('activar_randomizado') ): ?>
+        <?php if( get_field('activar_randomizado_problematicas') ): ?>
             <?php get_template_part( 'includes/problematicas-randomizado' ); ?>
         <?php else: ?>
             <div class="row cards">
