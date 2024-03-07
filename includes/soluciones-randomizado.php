@@ -15,7 +15,17 @@
                 <div class="card text-bg-primary mb-3">
                     <div class="card-body">
                         <h4 class="card-title">
-                            <?php if( get_field('fa_icon') ): ?><?php echo wp_strip_all_tags(get_field('fa_icon')); ?><?php endif; ?> <?php the_title(); ?>
+                            <?php 
+                            $fa_icon = get_field('fa_icon');
+                            if ($fa_icon) {
+                                // Extract the Font Awesome icon from the field output
+                                preg_match('/<i class="([^"]+)"><\/i>/', $fa_icon, $matches);
+                                if (!empty($matches[1])) {
+                                    echo '<i class="' . esc_attr($matches[1]) . '"></i>'; // Output the Font Awesome icon
+                                }
+                            }
+                            the_title(); 
+                            ?>
                         </h4>
                         <p class="card-text"><?php the_content(); ?></p>
                     </div>
