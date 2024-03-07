@@ -48,6 +48,9 @@
                     </h1>
                 </div>
             </div>
+        <?php if( get_field('activar_randomizado') ): ?>
+            <?php get_template_part( 'includes/problematicas-randomizado' ); ?>
+        <?php else: ?>
             <div class="row cards">
                 <div class="col-lg-6">
                     <hr>
@@ -98,6 +101,7 @@
                     </div>
                 </div>
             </div>
+        <?php endif; ?>
         </div>
     </section>
 
