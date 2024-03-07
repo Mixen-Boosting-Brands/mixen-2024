@@ -112,52 +112,7 @@
                     <p>En Mixen: Boosting Brands te ofrecemos 4 soluciones a estas problemáticas tan comunes:</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-3">
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <i class="fa-solid fa-earth-americas"></i> Presencia
-                                    </h4>
-                                    <p class="card-text">En un mundo digital, es esencial para tu empresa tener una sólida presencia en línea a través de sitios web, redes sociales y aplicaciones móviles.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-3">
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <i class="fa-solid fa-square-up-right"></i> Relevancia
-                                    </h4>
-                                    <p class="card-text">Adaptarse a las tendencias del mercado y las necesidades de los clientes para mantener su fidelidad.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-3">
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <i class="fa-solid fa-lightbulb"></i> Inteligencia
-                                    </h4>
-                                    <p class="card-text">La inteligencia implica tomar decisiones basadas en datos, analizarlos y utilizar tecnologías avanzadas para una mejor toma de decisiones.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-3">
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <i class="fa-solid fa-location-dot"></i> Posicionamiento
-                                    </h4>
-                                    <p class="card-text">La coherencia en la comunicación y la conexión emocional son fundamentales para consolidar una imagen de marca perdurable.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php get_template_part( 'includes/soluciones-randomizado' ); ?>
         </div>
         <div class="container-fluid container-fluid-bottom">
             <div class="row">
