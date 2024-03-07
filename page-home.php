@@ -121,7 +121,7 @@
                                     <h4 class="card-title">
                                         <i class="fa-solid fa-earth-americas"></i> Presencia
                                     </h4>
-                                    <p class="card-text">En un mundo digital, es escencial para tu empresa tener una sólida presencia en línea a través de sitios web, redes sociales y aplicaciones móviles.</p>
+                                    <p class="card-text">En un mundo digital, es esencial para tu empresa tener una sólida presencia en línea a través de sitios web, redes sociales y aplicaciones móviles.</p>
                                 </div>
                             </div>
                         </div>
