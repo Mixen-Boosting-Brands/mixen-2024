@@ -21,7 +21,7 @@
                                 // Extract the Font Awesome icon from the field output
                                 preg_match('/<i class="([^"]+)"><\/i>/', $fa_icon, $matches);
                                 if (!empty($matches[1])) {
-                                    echo '<i class="' . esc_attr($matches[1]) . '"></i>'; // Output the Font Awesome icon
+                                    echo '<i class="' . esc_attr($matches[1]) . '"></i> '; // Output the Font Awesome icon
                                 }
                             }
                             the_title(); 
