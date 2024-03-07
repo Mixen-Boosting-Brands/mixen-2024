@@ -333,7 +333,8 @@ header {
 
         &:hover,
         &:focus {
-            background: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 0.8)) !important;
+            background: $white;
+            color: $primary;
         }
     }
 
