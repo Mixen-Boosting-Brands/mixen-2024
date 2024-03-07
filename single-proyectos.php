@@ -209,6 +209,6 @@
 
     <?php get_template_part( 'includes/contenido-relacionado-proyectos' ); ?>
 
-	<?php get_template_part( 'includes/blog' ); ?>
+	<?php get_template_part( 'includes/cta-internas' ); ?>
 
 <?php get_footer(); ?>

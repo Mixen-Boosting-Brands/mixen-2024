@@ -7,7 +7,7 @@
     $blogQuery = new WP_Query($args);
     if ($blogQuery->have_posts()): while ($blogQuery->have_posts()) : $blogQuery->the_post();
 ?>
-    <section id="blog" class="common-dark py-60 d-none d-lg-block">
+    <section id="blog" class="common-dark py-60">
         <div class="container">
             <div class="row">
                 <div class="col-6 my-auto">
