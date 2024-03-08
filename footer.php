@@ -229,7 +229,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>'; // Define ajaxurl manually
 
-            var page = 1; // Initialize page counter for pagination
+            var page = 2; // Initialize page counter for pagination
             var loadMoreButton = document.getElementById('load-more-button');
             var loadMoreIcon = document.querySelector('#load-more-button .fa-rotate-right');
 
