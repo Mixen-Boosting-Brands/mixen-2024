@@ -556,7 +556,10 @@ function html5_shortcode_demo_2( $atts, $content = null ) {
     return null;
 }
 
-// Define a function to add the 'loading="lazy"' attribute
+/*------------------------------------*\
+    Define a function to add the 'loading="lazy"' attribute
+\*------------------------------------*/
+
 function add_lazy_loading_attribute($attr, $attachment, $size) {
     if (isset($attr['src'])) {
         $attr['loading'] = 'lazy';
@@ -564,3 +567,35 @@ function add_lazy_loading_attribute($attr, $attachment, $size) {
     return $attr;
 }
 add_filter('wp_get_attachment_image_attributes', 'add_lazy_loading_attribute', 10, 3);
+
+
+/*------------------------------------*\
+    Load more posts for mobile
+\*------------------------------------*/
+
+add_action('wp_ajax_load_more_posts', 'load_more_posts');
+add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
+
+function load_more_posts() {
+    $page = $_POST['page'];
+    $args = array(
+        'post_type'      => 'proyectos',
+        'posts_per_page' => 4,
+        'category__in'   => array(48),
+        'orderby'        => 'rand',
+        'paged'          => $page // Set page number for pagination
+    );
+
+    $query = new WP_Query($args);
+    if ($query->have_posts()): while ($query->have_posts()) : $query->the_post();
+    ?>
+        <div class="col-12">
+            <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
+                <a href="<?php the_permalink(); ?>"></a>
+            </div>
+        </div>
+    <?php 
+        endwhile; endif;
+    wp_reset_postdata();
+    die(); // End AJAX request
+}
