@@ -582,7 +582,6 @@ function load_more_posts() {
         'post_type'      => 'proyectos',
         'posts_per_page' => 4,
         'category__in'   => array(48),
-        'orderby'        => 'rand',
         'paged'          => $page, // Set page number for pagination
         'seed'           => rand() // Set random seed for consistent random order
     );
