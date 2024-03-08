@@ -1,5 +1,16 @@
-<!-- Inicio Slide -->
-<div class="swiper-slide">
+<!-- Mobile -->
+<div class="load-more-container mb-3 d-lg-none">
+    <!-- Your initial loop content here -->
+</div>
+<div class="d-grid gap-2">
+    <a id="load-more-button" class="btn btn-primary rounded-pill">
+        <i class="fa-solid fa-rotate-right"></i> Cargar más proyectos
+    </a>
+</div>
+<!-- /Mobile -->
+
+<!-- Desktop -->
+<div class="swiper-slide d-none d-lg-block">
     <div class="row g-1">
     <?php
         $args = array(
@@ -50,4 +61,4 @@
         </div>
     </div>
 </div>
-<!-- /Fin Slide -->
+<!-- /Desktop -->
