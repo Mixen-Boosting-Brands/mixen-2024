@@ -595,7 +595,7 @@ function load_more_posts() {
             </div>
         </div>
     <?php 
-        endwhile; endif;
+    endwhile; endif;
     wp_reset_postdata();
     die(); // End AJAX request
 }

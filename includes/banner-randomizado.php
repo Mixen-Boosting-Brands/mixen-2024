@@ -1,11 +1,34 @@
 <!-- Mobile -->
-<div class="load-more-container mb-3 d-lg-none">
-    <!-- Your initial loop content here -->
-</div>
-<div class="d-grid gap-2">
-    <a id="load-more-button" class="btn btn-primary rounded-pill">
-        <i class="fa-solid fa-rotate-right"></i> Cargar más proyectos
-    </a>
+<div class="swiper-slide mb-3 d-lg-none">
+    <div class="load-more-container">
+        <div class="row g-1">
+        <?php
+            $args = array(
+                'post_type'      => 'proyectos', // Specify the custom post type
+                'posts_per_page' => 4,
+                'category__in'   => array(48),   // Specify the category ID
+                'orderby' => 'rand',
+            );
+
+            $proyectosHeaderMobileQuery = new WP_Query($args);
+            if ($proyectosHeaderMobileQuery->have_posts()): while ($proyectosHeaderMobileQuery->have_posts()) : $proyectosHeaderMobileQuery->the_post();
+        ?>
+            <div class="col-12">
+                <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
+                    <a href="<?php the_permalink(); ?>"></a>
+                </div>
+            </div>
+        <?php 
+            endwhile; endif;
+            wp_reset_postdata();
+        ?>
+        </div>
+    </div>
+    <div class="d-grid gap-2">
+        <a id="load-more-button" class="btn btn-primary rounded-pill">
+            <i class="fa-solid fa-rotate-right"></i> Cargar más proyectos
+        </a>
+    </div>
 </div>
 <!-- /Mobile -->
 
