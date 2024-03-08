@@ -237,13 +237,6 @@
                 // Add 'fa-spin' class to the icon
                 loadMoreIcon.classList.add('fa-spin');
 
-                // Toggle opacity in thumbnails
-                var thumbs = document.querySelectorAll('.thumb');
-                thumbs.forEach(function(thumb) {
-                    thumb.classList.toggle('opacity-0');
-                    thumb.classList.toggle('opacity-1');
-                });
-
                 var xhr = new XMLHttpRequest();
                 var data = new FormData();
                 data.append('action', 'load_more_posts');
