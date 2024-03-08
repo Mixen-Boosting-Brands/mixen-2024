@@ -589,7 +589,7 @@ function load_more_posts() {
     if ($query->have_posts()): while ($query->have_posts()) : $query->the_post();
     ?>
         <div class="col-12">
-            <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
+            <div class="thumb opacity-0" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
                 <a href="<?php the_permalink(); ?>"></a>
             </div>
         </div>
