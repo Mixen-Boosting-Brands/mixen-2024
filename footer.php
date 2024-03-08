@@ -231,8 +231,12 @@
 
             var page = 2; // Initialize page counter for pagination
             var loadMoreButton = document.getElementById('load-more-button');
+            var loadMoreIcon = document.querySelector('#load-more-button .fa-rotate-right');
 
             loadMoreButton.addEventListener('click', function() {
+                // Add 'fa-spin' class to the icon
+                loadMoreIcon.classList.add('fa-spin');
+
                 var xhr = new XMLHttpRequest();
                 var data = new FormData();
                 data.append('action', 'load_more_posts');
@@ -244,6 +248,9 @@
                             var response = xhr.responseText;
                             document.querySelector('.load-more-container').insertAdjacentHTML('beforeend', response); // Append new posts to container
                             page++; // Increment page counter
+
+                            // Remove 'fa-spin' class from the icon
+                            loadMoreIcon.classList.remove('fa-spin');
                         } else {
                             console.error('Error: ' + xhr.status);
                         }
