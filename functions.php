@@ -577,14 +577,10 @@ add_action('wp_ajax_load_more_posts', 'load_more_posts');
 add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
 
 function load_more_posts() {
-    $page = $_POST['page'];
     $args = array(
         'post_type'      => 'proyectos',
         'posts_per_page' => 4,
         'category__in'   => array(48),
-        'orderby'        => 'rand',
-        'paged'          => $page, // Set page number for pagination
-        'seed'           => rand() // Set random seed for consistent random order
     );
 
     $query = new WP_Query($args);
