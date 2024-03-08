@@ -1,6 +1,6 @@
 <!-- Mobile -->
-<div class="swiper-slide mb-3 d-lg-none">
-    <div class="load-more-container">
+<div class="swiper-slide d-lg-none">
+    <div class="load-more-container mb-3">
         <div class="row g-1">
         <?php
             $args = array(
@@ -24,7 +24,7 @@
         ?>
         </div>
     </div>
-    <div class="d-grid gap-2">
+    <div class="load-more-button-container d-grid gap-2">
         <a id="load-more-button" class="btn btn-primary rounded-pill">
             <i class="fa-solid fa-rotate-right"></i> Cargar más proyectos
         </a>
