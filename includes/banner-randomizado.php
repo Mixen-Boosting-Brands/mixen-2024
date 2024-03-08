@@ -6,14 +6,13 @@
             'post_type'      => 'proyectos', // Specify the custom post type
             'posts_per_page' => 4,
             'category__in'   => array(48),   // Specify the category ID
-            'orderby'        => 'rand',
         );
 
         $proyectosHeaderMobileQuery = new WP_Query($args);
         if ($proyectosHeaderMobileQuery->have_posts()): while ($proyectosHeaderMobileQuery->have_posts()) : $proyectosHeaderMobileQuery->the_post();
     ?>
         <div class="col-12">
-            <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;" data-post-id="<?php echo get_the_ID(); ?>">
+            <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
                 <a href="<?php the_permalink(); ?>"></a>
             </div>
         </div>
