@@ -588,15 +588,15 @@ function load_more_posts() {
     );
 
     $query = new WP_Query($args);
-    if ($query->have_posts()): $i = 2; while ($query->have_posts()) : $query->the_post();
+    if ($query->have_posts()): while ($query->have_posts()) : $query->the_post();
     ?>
         <div class="col-12">
-            <div class="thumb thumb-<?php echo $i; ?>" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
+            <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
                 <a href="<?php the_permalink(); ?>"></a>
             </div>
         </div>
     <?php 
-        $i++; endwhile; endif;
+    endwhile; endif;
     wp_reset_postdata();
     die(); // End AJAX request
 }
