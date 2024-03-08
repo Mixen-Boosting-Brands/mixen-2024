@@ -2,14 +2,11 @@
 <div class="swiper-slide d-lg-none">
     <div class="load-more-container row g-1 mb-3">
     <?php
-       $page = $_POST['page'];
-       $args = array(
-            'post_type'      => 'proyectos',
+        $args = array(
+            'post_type'      => 'proyectos', // Specify the custom post type
             'posts_per_page' => 4,
-            'category__in'   => array(48),
-            'orderby'        => 'rand',
-            'paged'          => $page, // Set page number for pagination
-            'seed'           => rand() // Set random seed for consistent random order
+            'category__in'   => array(48),   // Specify the category ID
+            'orderby' => 'rand',
         );
 
         $proyectosHeaderMobileQuery = new WP_Query($args);
