@@ -12,7 +12,7 @@
         if ($proyectosHeaderMobileQuery->have_posts()): while ($proyectosHeaderMobileQuery->have_posts()) : $proyectosHeaderMobileQuery->the_post();
     ?>
         <div class="col-12">
-            <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
+            <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;" data-post-id="<?php echo get_the_ID(); ?>">
                 <a href="<?php the_permalink(); ?>"></a>
             </div>
         </div>
