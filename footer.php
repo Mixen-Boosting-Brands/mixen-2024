@@ -239,8 +239,10 @@
 
                 // Toggle opacity in thumbnails
                 var thumbs = document.querySelectorAll('.thumb');
-                thumbs.classList.toggle('opacity-0');
-                thumbs.classList.toggle('opacity-1');
+                thumbs.forEach(function(thumb) {
+                    thumb.classList.toggle('opacity-0');
+                    thumb.classList.toggle('opacity-1');
+                });
 
                 var xhr = new XMLHttpRequest();
                 var data = new FormData();
