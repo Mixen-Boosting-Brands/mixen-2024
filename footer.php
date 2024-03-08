@@ -230,7 +230,6 @@
             var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>'; // Define ajaxurl manually
 
             var page = 2; // Initialize page counter for pagination
-            var loadedPosts = []; // Array to store IDs of loaded posts
             var loadMoreButton = document.getElementById('load-more-button');
             var loadMoreIcon = document.querySelector('#load-more-button .fa-rotate-right');
 
@@ -247,15 +246,7 @@
                     if (xhr.readyState === XMLHttpRequest.DONE) {
                         if (xhr.status === 200) {
                             var response = xhr.responseText;
-                            var container = document.querySelector('.load-more-container');
-                            container.insertAdjacentHTML('beforeend', response); // Append new posts to container
-                            
-                            // Update loadedPosts array with IDs of newly loaded posts
-                            var newPosts = container.querySelectorAll('.thumb');
-                            newPosts.forEach(function(post) {
-                                loadedPosts.push(post.dataset.postId);
-                            });
-
+                            document.querySelector('.load-more-container').insertAdjacentHTML('beforeend', response); // Append new posts to container
                             page++; // Increment page counter
 
                             // Remove 'fa-spin' class from the icon

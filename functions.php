@@ -583,14 +583,13 @@ function load_more_posts() {
         'posts_per_page' => 4,
         'category__in'   => array(48),
         'paged'          => $page, // Set page number for pagination
-        'seed'           => rand() // Set random seed for consistent random order
     );
 
     $query = new WP_Query($args);
     if ($query->have_posts()): while ($query->have_posts()) : $query->the_post();
     ?>
         <div class="col-12">
-            <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;" data-post-id="<?php echo get_the_ID(); ?>">
+            <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
                 <a href="<?php the_permalink(); ?>"></a>
             </div>
         </div>
