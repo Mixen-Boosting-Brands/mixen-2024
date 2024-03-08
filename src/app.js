@@ -7,9 +7,9 @@ import '../src/form-ajax';
 import '../src/aos';
 import '../src/swipers';
 import '../src/remove-related-videos';
-import '../src/load-more-button';
-import 'jquery-parallax.js';
+// import '../src/load-more-button';
 // import '../src/gsap';
+import 'jquery-parallax.js';
 
 // Header
 document.addEventListener('DOMContentLoaded', function () {
