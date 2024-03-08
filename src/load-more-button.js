@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+    var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>'; // Define ajaxurl manually
+
     var page = 2; // Initialize page counter for pagination
     var loadMoreButton = document.getElementById('load-more-button');
 
