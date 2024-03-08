@@ -80,6 +80,14 @@ h6 {
     padding-bottom: 30px;
 }
 
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-1 {
+    opacity: 1;
+}
+
 .whatsapp {
     @include whatsapp-button;
 }
@@ -265,6 +273,7 @@ header {
         width: 100%;
         height: 200px;
         position: relative;
+        @include transition(ease, 0.3s);
 
         a {
             position: absolute;
