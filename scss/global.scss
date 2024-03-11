@@ -316,7 +316,17 @@ header {
         @include font-size(0.8rem);
     }
 
+    .accordion {
+        .accordion-header {
+            text-transform: uppercase;
 
+            .accordion-button {
+                font-size: unset;
+                padding: 0 var(--bs-accordion-btn-padding-x);
+                text-transform: uppercase;
+            }
+        }
+    }
 }
 
 .common-dark {
