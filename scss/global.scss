@@ -322,7 +322,7 @@ header {
 
             .accordion-button {
                 font-size: unset;
-                padding: 0 var(--bs-accordion-btn-padding-x);
+                padding: 0;
                 text-transform: uppercase;
 
                 &:focus,
@@ -332,6 +332,10 @@ header {
                     box-shadow: none;
                 }
             }
+        }
+
+        .accordion-body {
+            padding: 10px 0;
         }
     }
 }
