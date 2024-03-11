@@ -346,15 +346,17 @@ header {
         @include transition(ease, 0.3s);
 
         p {
-            color: $secondary;
+            color: hsl(0, 0%, 85%);
         }
 
+        /*
         &:hover,
         &:focus {
             background: $white !important;
             border: 1px solid $white;
             color: $primary !important;
         }
+        */
     }
 
     .container-fluid-bottom {
