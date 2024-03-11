@@ -72,7 +72,7 @@
                         </div>
                         <div class="col-8 my-auto">
                             <!-- Mobile -->
-                            <div class="accordion accordion-flush" id="accordionFlush-1">
+                            <div class="accordion accordion-flush d-lg-none" id="accordionFlush-1">
                                 <div class="accordion-item">
                                     <h4 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-1" aria-expanded="false" aria-controls="flush-collapse-1">
@@ -89,8 +89,10 @@
                             <!-- /Mobile -->
 
                             <!-- Desktop -->
-                            <h4>Falta de diferenciación</h4>
-                            <p>Tu empresa compite en un mercado saturado con productos y servicios similares. La falta de diferenciación puede llevar a una guerra de precios y a la disminución de márgenes de ganancia. Además, es difícil destacar y atraer a los clientes en medio de la competencia.</p>
+                            <div class="d-none d-lg-block">
+                                <h4>Falta de diferenciación</h4>
+                                <p>Tu empresa compite en un mercado saturado con productos y servicios similares. La falta de diferenciación puede llevar a una guerra de precios y a la disminución de márgenes de ganancia. Además, es difícil destacar y atraer a los clientes en medio de la competencia.</p>
+                            </div>
                             <!-- /Desktop -->
                         </div>
                     </div>
@@ -103,7 +105,7 @@
                         </div>
                         <div class="col-8 my-auto"">
                             <!-- Mobile -->
-                            <div class="accordion accordion-flush" id="accordionFlush-2">
+                            <div class="accordion accordion-flush d-lg-none" id="accordionFlush-2">
                                 <div class="accordion-item">
                                     <h4 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-2" aria-expanded="false" aria-controls="flush-collapse-2">
@@ -120,8 +122,10 @@
                             <!-- /Mobile -->
 
                             <!-- Desktop -->
-                            <h4>Falta de acceso a mercados digitales</h4>
-                            <p>La digitalización y la presencia en línea son cruciales en la actualidad, seguramente tu compañía enfrenta desafíos para adaptarse a la transformación digital. Queremos ayudarte.</p>
+                            <div class="d-none d-lg-block">
+                                <h4>Falta de acceso a mercados digitales</h4>
+                                <p>La digitalización y la presencia en línea son cruciales en la actualidad, seguramente tu compañía enfrenta desafíos para adaptarse a la transformación digital. Queremos ayudarte.</p>
+                            </div>
                             <!-- /Desktop -->
                         </div>
                     </div>
@@ -134,7 +138,7 @@
                         </div>
                         <div class="col-8 col-lg-12 my-auto">
                              <!-- Mobile -->
-                             <div class="accordion accordion-flush" id="accordionFlush-3">
+                             <div class="accordion accordion-flush d-lg-none" id="accordionFlush-3">
                                 <div class="accordion-item">
                                     <h4 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-3" aria-expanded="false" aria-controls="flush-collapse-3">
@@ -151,8 +155,10 @@
                             <!-- /Mobile -->
 
                             <!-- Desktop -->
-                            <h4>Falta de estrategias de marketing efectivas</h4>
-                            <p>Proyectos como el tuyo luchan por desarrollar estrategias de marketing efectivas por limitaciones de presupuesto y experiencia. Esto resulta en dificultades para llegar al prúblico objetivo y lograr resultados positivos, afectando alcances, conciencia y crecimiento.</p>
+                            <div class="d-none d-lg-block">
+                                <h4>Falta de estrategias de marketing efectivas</h4>
+                                <p>Proyectos como el tuyo luchan por desarrollar estrategias de marketing efectivas por limitaciones de presupuesto y experiencia. Esto resulta en dificultades para llegar al prúblico objetivo y lograr resultados positivos, afectando alcances, conciencia y crecimiento.</p>
+                            </div>
                             <!-- /Desktop -->
                         </div>
                     </div>
@@ -165,7 +171,7 @@
                         </div>
                         <div class="col-8 my-auto"">
                              <!-- Mobile -->
-                             <div class="accordion accordion-flush" id="accordionFlush-4">
+                             <div class="accordion accordion-flush d-lg-none" id="accordionFlush-4">
                                 <div class="accordion-item">
                                     <h4 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-4" aria-expanded="false" aria-controls="flush-collapse-4">
@@ -182,8 +188,10 @@
                             <!-- /Mobile -->
 
                             <!-- Desktop -->
-                            <h4>Dificultad para la innovación y adaptación</h4>
-                            <p>Tu marca podría tener problemas para innovar y adaptarse debido a la falta de recursos y conocimientos. Esto puede llevar a la obsolencia y limitar el crecimiento. Identificar tendencias emergentes es crucial para mantener la competitividad.</p>
+                            <div class="d-none d-lg-block">
+                                <h4>Dificultad para la innovación y adaptación</h4>
+                                <p>Tu marca podría tener problemas para innovar y adaptarse debido a la falta de recursos y conocimientos. Esto puede llevar a la obsolencia y limitar el crecimiento. Identificar tendencias emergentes es crucial para mantener la competitividad.</p>
+                            </div>
                             <!-- /Desktop -->
                         </div>
                     </div>
