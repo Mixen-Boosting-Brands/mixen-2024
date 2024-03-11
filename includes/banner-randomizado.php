@@ -5,21 +5,31 @@
         $args = array(
             'post_type'      => 'proyectos', // Specify the custom post type
             'posts_per_page' => 4,
+            'orderby'        => 'date',
+            'order'          => 'DESC',
             'category__in'   => array(48),   // Specify the category ID
         );
 
-        $proyectosHeaderMobileQuery = new WP_Query($args);
-        if ($proyectosHeaderMobileQuery->have_posts()): while ($proyectosHeaderMobileQuery->have_posts()) : $proyectosHeaderMobileQuery->the_post();
+        $latest_posts_query = new WP_Query($args);
+
+        // Get the latest 4 posts
+        $latest_posts = $latest_posts_query->get_posts();
+
+        // Shuffle the array randomly
+        shuffle($latest_posts);
+
+        foreach ($latest_posts as $post) : setup_postdata($post);
     ?>
         <div class="col-12">
             <div class="thumb" style="background: url('<?php the_field('thumbnail_banner_principal'); ?>') no-repeat;">
                 <a href="<?php the_permalink(); ?>"></a>
             </div>
         </div>
-    <?php 
-        endwhile; endif;
-        wp_reset_postdata();
-    ?>
+        <?php 
+            endforeach;
+
+            wp_reset_postdata();
+        ?>
     </div>
     <div class="load-more-button-container d-grid gap-2">
         <a id="load-more-button" class="btn btn-primary rounded-pill">
