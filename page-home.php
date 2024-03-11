@@ -6,9 +6,21 @@
     get_header();
 ?>
 
-    <section id="jumbotron">
+    <section id="jumbotron-movil" class="d-lg-none">
         <div class="container">
             <div class="row py-30">
+                <div class="col text-center">
+                    <h1 id="smart-is-the-new-sexy">
+                        Smart <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> <span class="fs-4">is the new sexy</span>
+                    </h1>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section id="jumbotron">
+        <div class="container">
+            <div class="row py-30 d-none d-lg-block">
                 <div class="col text-center">
                     <h1 id="smart-is-the-new-sexy">
                         Smart <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> <span class="fs-4">is the new sexy</span>
