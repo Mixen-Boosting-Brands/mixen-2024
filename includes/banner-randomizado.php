@@ -5,7 +5,8 @@
         $args = array(
             'post_type'      => 'proyectos', // Specify the custom post type
             'posts_per_page' => 4,
-            'category__in'   => array(48),   // Specify the category ID
+            'category__in'   => array(48),   // Specify the category ID,
+            'orderby' => 'rand',
         );
 
         $proyectosHeaderMobileQuery = new WP_Query($args);
