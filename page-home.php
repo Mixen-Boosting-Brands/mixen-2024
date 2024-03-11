@@ -67,17 +67,17 @@
                 <div class="col-lg-6">
                     <hr>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 my-auto"">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                         </div>
-                        <div class="col-8">
+                        <div class="col-8 my-auto">
                             <div class="accordion accordion-flush" id="accordionFlush-1">
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header">
+                                    <h4 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-1" aria-expanded="false" aria-controls="flush-collapse-1">
-                                            <h4>Falta de diferenciación</h4>
+                                            Falta de diferenciación
                                         </button>
-                                    </h2>
+                                    </h4>
                                     <div id="flush-collapse-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-1">
                                         <div class="accordion-body">
                                             <p>Tu empresa compite en un mercado saturado con productos y servicios similares. La falta de diferenciación puede llevar a una guerra de precios y a la disminución de márgenes de ganancia. Además, es difícil destacar y atraer a los clientes en medio de la competencia.</p>
@@ -91,10 +91,10 @@
                 <div class="col-lg-6">
                     <hr>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 my-auto"">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-2.png" alt="" class="img-fluid" loading="lazy">
                         </div>
-                        <div class="col-8">
+                        <div class="col-8 my-auto"">
                             <h4>Falta de acceso a mercados digitales</h4>
                             <p>La digitalización y la presencia en línea son cruciales en la actualidad, seguramente tu compañía enfrenta desafíos para adaptarse a la transformación digital. Queremos ayudarte.</p>
                         </div>
@@ -106,7 +106,7 @@
                         <div class="col-4 col-lg-12 mb-1 mb-lg-3">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-3.png" alt="" class="img-fluid" loading="lazy">
                         </div>
-                        <div class="col-8 col-lg-12">
+                        <div class="col-8 col-lg-12 my-auto"">
                             <h4>Falta de estrategias de marketing efectivas</h4>
                             <p>Proyectos como el tuyo luchan por desarrollar estrategias de marketing efectivas por limitaciones de presupuesto y experiencia. Esto resulta en dificultades para llegar al prúblico objetivo y lograr resultados positivos, afectando alcances, conciencia y crecimiento.</p>
                         </div>
@@ -115,10 +115,10 @@
                 <div class="col-lg-6">
                     <hr>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 my-auto"">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-4.png" alt="" class="img-fluid" loading="lazy">
                         </div>
-                        <div class="col-8">
+                        <div class="col-8 my-auto"">
                             <h4>Dificultad para la innovación y adaptación</h4>
                             <p>Tu marca podría tener problemas para innovar y adaptarse debido a la falta de recursos y conocimientos. Esto puede llevar a la obsolencia y limitar el crecimiento. Identificar tendencias emergentes es crucial para mantener la competitividad.</p>
                         </div>
