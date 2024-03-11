@@ -145,7 +145,7 @@
                                             Falta de estrategias de marketing efectivas
                                         </button>
                                     </h4>
-                                    <div id="flush-collapse-3" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-1">
+                                    <div id="flush-collapse-3" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-3">
                                         <div class="accordion-body">
                                             Proyectos como el tuyo luchan por desarrollar estrategias de marketing efectivas por limitaciones de presupuesto y experiencia. Esto resulta en dificultades para llegar al prúblico objetivo y lograr resultados positivos, afectando alcances, conciencia y crecimiento.
                                         </div>
