@@ -581,7 +581,6 @@ function load_more_posts() {
     $args = array(
         'post_type'      => 'proyectos',
         'posts_per_page' => 4,
-        'offset' => 4,
         'category__in'   => array(48),
         'paged'          => $page, // Set page number for pagination
     );
