@@ -71,8 +71,20 @@
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                         </div>
                         <div class="col-8">
-                            <h4>Falta de diferenciación</h4>
-                            <p>Tu empresa compite en un mercado saturado con productos y servicios similares. La falta de diferenciación puede llevar a una guerra de precios y a la disminución de márgenes de ganancia. Además, es difícil destacar y atraer a los clientes en medio de la competencia.</p>
+                            <div class="accordion accordion-flush" id="accordionFlush-1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-1" aria-expanded="false" aria-controls="flush-collapse-1">
+                                            <h4>Falta de diferenciación</h4>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapse-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-1">
+                                        <div class="accordion-body">
+                                            <p>Tu empresa compite en un mercado saturado con productos y servicios similares. La falta de diferenciación puede llevar a una guerra de precios y a la disminución de márgenes de ganancia. Además, es difícil destacar y atraer a los clientes en medio de la competencia.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
