@@ -133,7 +133,7 @@
                 <div class="col-lg-6">
                     <hr>
                     <div class="row">
-                        <div class="col-4 col-lg-12 mb-1 mb-lg-3">
+                        <div class="col-4 col-lg-12 my-auto mb-lg-3">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-3.png" alt="" class="img-fluid" loading="lazy">
                         </div>
                         <div class="col-8 col-lg-12 my-auto">
