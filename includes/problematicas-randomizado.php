@@ -14,7 +14,8 @@
         <div class="row">
             <div class="col-4 <?php if( $i == 3 ): ?>col-lg-12 mb-1 mb-lg-3<?php endif; ?>">
             <?php if( $i == 3 ): ?>
-                <?php the_post_thumbnail('home-problematica-big', array('class' => 'img-fluid')); ?>
+                <?php the_post_thumbnail('home-problematica-small', array('class' => 'img-fluid d-lg-none')); ?>
+                <?php the_post_thumbnail('home-problematica-big', array('class' => 'img-fluid d-none d-lg-block')); ?>
             <?php else: ?>
                 <?php the_post_thumbnail('home-problematica-small', array('class' => 'img-fluid')); ?>
             <?php endif; ?>
