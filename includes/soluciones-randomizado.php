@@ -12,7 +12,7 @@
             if ($solucionesQuery->have_posts()): while ($solucionesQuery->have_posts()) : $solucionesQuery->the_post();
         ?>
             <div class="col-lg-6">
-                <div class="card text-bg-primary mb-3">
+                <div class="card text-bg-primary mb-4">
                     <div class="card-body">
                         <h4 class="card-title">
                             <?php 
