@@ -412,7 +412,121 @@
                     <div class="separador"></div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row d-lg-none">
+                <div class="col-lg-9 offset-lg-2">
+                    <div class="accordion accordion-flush" id="acordion-cll">
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Branding
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#acordion-cll">
+                                <div class="accordion-body">
+                                    <p>Crea una identidad única y memorable mediante diseño y mensajes impactantes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Web
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#acordion-cll">
+                                <div class="accordion-body">
+                                    <p>Transforma tu visión en una experiencia en línea excepcional. Creamos soluciones.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    e-Commerce
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#acordion-cll">
+                                <div class="accordion-body">
+                                    <p>Impulsa tus ventas en línea con nuestras soluciones de comercio electrónico, ofrecemos una experiencia de compra segura y eficiente.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    SEO/SEM
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#acordion-cll">
+                                <div class="accordion-body">
+                                    <p>Mejora tu visibilidad en línea con SEO y SEM. Aumentamos tu posicionamiento, visibilidad y generamos tráfico de calidad para maximizar tu alcance y conversiones.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    Social media
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#acordion-cll">
+                                <div class="accordion-body">
+                                    <p>Mejora tu presencia en redes sociales con nuestra gestión estratégica. Creamos contenido atractivo, aumentando la conexión y convirtiendo todos los esfuerzos en ventas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                    Contenido 
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#acordion-cll">
+                                <div class="accordion-body">
+                                    <p>Cuenta tu historia de manera convincente con contenido multimedia relevante y valioso, estableciendo autoridad y manteniendo el compromiso de tu audiencia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                    CX
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#acordion-cll">
+                                <div class="accordion-body">
+                                    <p>Pon a tus clientes en el centro de nuestro enfoque en la Experiencia del Cliente. Automatizando cada interacción desde el inicio hasta la posventa.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                                    IA
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#acordion-cll">
+                                <div class="accordion-body">
+                                    <p>Utiliza inteligencia artificial para personalizar campañas, predecir tendencias y generar contenidos únicos. Potenciamos las ventas de nuestros clientes entendiendo e integrando megatendencias.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                    Desarrollo
+                                </button>
+                            </h2>
+                            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#acordion-cll">
+                                <div class="accordion-body">
+                                    <p>Transforma tus ideas en aplicaciones móviles atractivas y funcionales, trabajamos contigo para crear soluciones valiosas y fluidas para tus usuarios.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-none d-lg-block">
                 <div class="col-lg-9 offset-lg-2">
                     <div class="table-responsive">
                         <table class="table table-borderless">
