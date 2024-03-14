@@ -7,7 +7,39 @@
                     </h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="row text-center d-lg-none">
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Unilever.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Grupo-Bafar.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Grupo-San-Francisco.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Grupo-Harinas.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/La-Nacional.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Canadevi.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/KIA.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/RUBA.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Tec-MTY.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-6 my-auto">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Thomson-Reuters.webp" alt="" class="img-fluid" loading="lazy">
+                </div>
+            </div>
+            <div class="row d-none d-lg-block">
                 <div class="col-12">
                     <!-- Slider main container -->
                     <div class="swiper swiper-clientes">
