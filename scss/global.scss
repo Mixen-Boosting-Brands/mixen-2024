@@ -410,7 +410,9 @@ header {
     overflow: hidden;
 
     .accordion-header {
-        text-transform: uppercase;
+        .accordion-button {
+            text-transform: uppercase;
+        }
     }
 
     .accordion-button:focus {
