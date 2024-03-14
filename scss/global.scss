@@ -408,6 +408,18 @@ header {
 
 #como-lo-logramos {
     overflow: hidden;
+
+    .accordion-header {
+        text-transform: uppercase;
+    }
+
+    .accordion-button:focus {
+        box-shadow: none;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: transparent;
+    }
 }
 
 #mixen-cloud {
