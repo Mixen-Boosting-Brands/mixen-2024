@@ -150,7 +150,7 @@
                             <nav>
                                 <ul class="list-unstyled">
                                     <li class="mb-1 mb-lg-3">
-                                        <a href="#">
+                                        <a href="mailto:torh@mixen.mx?subject=Deseo%20unirme%20al%20equipo%20de%20Mixen">
                                             Unirme al equipo
                                         </a>
                                     </li>
