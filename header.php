@@ -105,7 +105,7 @@
                     </li>
                 </ul>
             </nav>
-            <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill" id="btn-contacto" target="_blank">
+            <a href="https://wa.me/5216141320099?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill" id="btn-contacto" target="_blank">
                 <span class="d-lg-none">¿Hablamos?</span><span class="d-none d-lg-inline-block">Hablemos de tu proyecto</span>
             </a>
             <div id="social">
