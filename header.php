@@ -105,7 +105,7 @@
                     </li>
                 </ul>
             </nav>
-            <a href="https://wa.me/5216141320099?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill" id="btn-contacto" target="_blank">
+            <a href="https://wa.me/526145154943?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill" id="btn-contacto" target="_blank">
                 <span class="d-lg-none">¿Hablamos?</span><span class="d-none d-lg-inline-block">Hablemos de tu proyecto</span>
             </a>
             <div id="social">
@@ -135,7 +135,7 @@
                     <li>
                         <img src="<?php echo esc_url(
                             get_template_directory_uri()
-                        ); ?>/assets/images/ico-wa-business.svg" alt="" class="ico-wa-business img-fluid" loading="lazy"> <a href="https://wa.me/5216141320099?text=Hola%20Mixen,%20necesito%20información." target="_blank">+52 1 (614) 132 0099</a>
+                        ); ?>/assets/images/ico-wa-business.svg" alt="" class="ico-wa-business img-fluid" loading="lazy"> <a href="https://wa.me/526145154943?text=Hola%20Mixen,%20necesito%20información." target="_blank">+52 (614) 515 4943</a>
                     </li>
                 <?php if (!is_page(28)): ?>
                     <li>
@@ -162,7 +162,7 @@
                     </a>
                 </div>
                 <div class="col-7 col-lg-8 my-auto text-end">
-                    <a href="https://wa.me/5216141320099?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill me-3" target="_blank">
+                    <a href="https://wa.me/526145154943?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill me-3" target="_blank">
                         <img src="<?php echo esc_url(
                             get_template_directory_uri()
                         ); ?>/assets/images/ico-wa-business.svg" alt="" class="ico-wa-business img-fluid" loading="lazy"> <span class="d-lg-none">¿Hablamos?</span><span class="d-none d-lg-inline-block">Hablemos de tu proyecto</span>
