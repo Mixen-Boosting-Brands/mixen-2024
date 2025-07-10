@@ -111,7 +111,7 @@
             <div id="social">
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com/mixenmx/" target="_blank">
+                        <a href="https://www.instagram.com/mixen.global/" target="_blank">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
