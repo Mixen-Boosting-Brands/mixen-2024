@@ -598,3 +598,20 @@ function load_more_posts() {
     wp_reset_postdata();
     die(); // End AJAX request
 }
+
+// Bloquear REST API anónima
+add_filter("rest_authentication_errors", function ($result) {
+    if (!empty($result)) {
+        return $result;
+    }
+    // Permitir usuarios logueados
+    if (is_user_logged_in()) {
+        return $result;
+    } // Bloquear REST anónima
+    return new WP_Error("rest_forbidden", "REST API restricted", [
+        "status" => 401,
+    ]);
+});
+
+// Desactivar registro de usuarios nuevos
+add_filter("option_users_can_register", "__return_false");
